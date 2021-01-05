@@ -1,0 +1,187 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem ;
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  margin: auto;
+}
+p {
+  line-height: 2;
+}
+hr {
+  width: 5%;
+  border-color: #eaf6f6;
+  border-style: dotted none none none;
+  border-width: 8px;
+  margin: 100px auto;
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.top-container {
+  background-color: #eff8ff;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px auto;
+}
+.intro {
+  width: 40%;
+  margin: auto;
+}
+.top-cloud {
+  position: absolute;
+  top:40px;
+  right: 250px;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+.programmer {
+  font-weight: normal;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.com-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.coder-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.projects {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.project-link {
+  text-decoration: tomato;
+  font-size: 1.2rem;
+  font-weight: bold;
+  animation-name: resAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.bulb-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.project {
+  color: #40514e;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.project:hover {
+  color: red;
+}
+.btn {
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(to bottom, #11cdd4, #11999e);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 100;
+   padding: 8px 20px 8px 20px;
+   background-color: #5AA5F9;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+.resume-h {
+  margin-top: 50px;
+}
+.resume {
+  color: red;
+  margin-top: 50px;
+  font-size: 1.25rem;
+  animation-name: resAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes resAnim {
+  25% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: orange;
+  }
+  100% {
+    color: yellow;
+  }
+}
+.resume:hover {
+  color: #11999e;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 20px;
+}
+.contact-message {
+  width: 35%;
+  margin: 40px auto 60px auto;
+}
+.footer-link {
+  color: #11999e;
+
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px 0px 0px;
+}
