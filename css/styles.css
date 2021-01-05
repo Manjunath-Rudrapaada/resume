@@ -87,7 +87,6 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
 }
 .project-link {
-  text-decoration: tomato;
   font-size: 1.2rem;
   font-weight: bold;
   animation-name: resAnim;
